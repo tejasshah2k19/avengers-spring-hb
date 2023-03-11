@@ -1,0 +1,56 @@
+*) create spring project with spring data jpa
+*) ms sql driver 
+*) jdbc api 
+
+
+dbConnection 
+	add properties in application.properties file 
+	
+views:-
+	add tomcat embeded jasper 
+	add properites in app.prop 
+		suffix
+		prefix 
+		 
+
+		 
+1 to 1 
+
+
+Employee Address 
+
+
+Employee : 
+		employeeId : PK 
+		name
+		addressId : FK 		
+		
+Address :
+	addressId : PK 
+	title 
+	city 
+	 
+	 
+	 
+class EmployeeEntity 
+		employeeId  
+		name
+		@OneToOne
+		Address address; 
+		
+		
+		
+class AddressEntity
+	addressId : PK 
+	title 
+	city 
+		
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
